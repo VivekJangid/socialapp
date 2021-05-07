@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ProfileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
+    ref: 'user',
   },
   company: { type: String },
   website: { type: String },
@@ -27,7 +27,7 @@ const ProfileSchema = new mongoose.Schema({
     {
       school: { type: String, required: true },
       degree: { type: String, required: true },
-      fieldodstudy: { type: String, required: true },
+      fieldofstudy: { type: String, required: true },
       from: { type: Date, required: true },
       to: { type: Date },
       current: { type: Boolean, default: false },

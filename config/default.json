@@ -1,4 +1,6 @@
 {
   "mongoURL" : "mongodb+srv://mernadmin:mernadmin@merndb.lcvit.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "jwt-secret": "UIYjh@#!$#@$##@!*(&1"
+  "jwt-secret": "UIYjh@#!$#@$##@!*(&1",
+  "githubClientId":"a89fe1b4452885530e46",
+  "githubSecret":"47f5ba2b5241bf88a1ed007b5c1d5b12efd5eeb8"
 }
