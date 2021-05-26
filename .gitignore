@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+config/default.json
+config/production.json
 
 # testing
 /coverage
@@ -23,4 +25,3 @@ yarn-debug.log*
 yarn-error.log*
 
 
-default.js
